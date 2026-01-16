@@ -1,22 +1,24 @@
+import openai
+
+# Replace with your actual OpenAI key or use an environment variable
+openai.api_key = "your-api-key-here"
+
+def ask_openai(prompt):
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7
+    )
+    return response['choices'][0]['message']['content'].strip()
+
 def generate_summary(cv, job):
-    if "python" in job.lower() and "python" in cv.lower():
-        return "You have Python experience, which matches this role well."
-    return "Based on the job description and your CV, you are a good match."
+    prompt = f"Summarize why this person is a good fit:\n\nCV:\n{cv}\n\nJob:\n{job}"
+    return ask_openai(prompt)
 
 def generate_bullets(cv, job):
-    bullets = []
-    if "team" in job.lower():
-        if "team" in cv.lower():
-            bullets.append("Worked collaboratively in team environments.")
-    if "api" in job.lower() and "api" in cv.lower():
-        bullets.append("Developed and consumed APIs in past projects.")
-    return bullets or ["No strong matches found — consider revising your CV."]
+    prompt = f"List 3 bullet points from the CV that match the job:\n\nCV:\n{cv}\n\nJob:\n{job}"
+    return ask_openai(prompt).splitlines()
 
 def generate_cover_letter(cv, job):
-    return f"""Dear Hiring Manager,
-
-I am excited to apply for this position. My background aligns with the key requirements you've listed, and I am confident I can contribute meaningfully to your team.
-
-Sincerely,
-Your Name
-"""
+    prompt = f"Write a short cover letter based on the CV and job:\n\nCV:\n{cv}\n\nJob:\n{job}"
+    return ask_openai(prompt)
