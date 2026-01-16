@@ -1,0 +1,6 @@
+Adam Christensen
+Computer Science & Games Student at SETU Waterford
+
+- Built a supermarket management system in JavaFX
+- Created a climbing game in Unity with branching narrative
+- Experienced in Python, Java, APIs, and teamwork
