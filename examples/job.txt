@@ -1,2 +1,37 @@
-We are hiring a Junior Python Developer to work on web APIs in a team setting.
-Skills: Python, REST APIs, teamwork, software engineering fundamentals.
+Python Data Engineer
+Dublin, County Dublin, Ireland · Reposted 3 weeks ago · Over 100 applicants
+Promoted by hirer · Actively reviewing applicants
+
+
+Hybrid
+
+Full-time
+
+  0 of 10 skills match
+Matches your job preferences, job type is {}.
+
+Easy Apply
+
+Save
+Save Python Data Engineer at Stelfox Tech Recruitment
+About the job
+Stelfox is supporting a SaaS-led Data analytics platform provider in Dublin, who are looking to expand out their Client Data Integration team as they continue to onboard large scale enterprise customers onto their Data platform.
+
+
+We are looking to hire a Python Data Engineer who can manage and take ownership of Python-based API adaptors that support the integration of client datasets onto their internal data analytics platform as the team navigate requests from client of widening their datasets and how best to integrate into the company's internal platform.
+
+
+Ideally, you will come from 
+
+An engineering background (Bachelor or Masters in computer science or equivalent so you understand good coding practices, working with Github repos, Python coding and some SQL experience)
+1-3 years commercial experience in a data engineering / data integration or similar role. 
+You will also be open and comfortable to interact with clients as you support the data integration process.
+
+
+This is an excellent opportunity to join a growing team in Dublin with opportunity for career growth as the company is moving into wider and newer industry domains with their core SaaS Data platform.
+
+
+For further information, feel free to apply for immediate consideration.
+
+
+Note - this position is based in Dublin, operating a 3 days in office, 2 days WFH policy.

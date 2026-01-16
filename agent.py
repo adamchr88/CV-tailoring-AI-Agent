@@ -1,4 +1,4 @@
-from parser import read_file
+from file_utils import read_file
 from templates import generate_summary, generate_bullets, generate_cover_letter
 
 def compute_score(cv, job):

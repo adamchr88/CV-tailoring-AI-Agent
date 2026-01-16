@@ -1,6 +1,66 @@
-Adam Christensen
-Computer Science & Games Student at SETU Waterford
+John Doe
+Email: john.doe@example.com
+Phone: +353 87 123 4567
+LinkedIn: linkedin.com/in/johndoe
+GitHub: github.com/johndoe
+Location: Dublin, Ireland
 
-- Built a supermarket management system in JavaFX
-- Created a climbing game in Unity with branching narrative
-- Experienced in Python, Java, APIs, and teamwork
+PROFILE
+Detail-oriented and adaptable Computer Science graduate with strong foundational knowledge in software engineering, data analysis, and full-stack development.
+Experienced in both academic and personal projects using Python, JavaScript, and SQL.
+Seeking a junior developer position where I can contribute to a dynamic development team and continue to grow my technical skillset.
+
+TECHNICAL SKILLS
+
+Languages: Python, JavaScript, Java, SQL, HTML, CSS
+Frameworks: Flask, Node.js, Express
+Databases: MySQL, PostgreSQL
+Tools: Git, Docker, VS Code, Postman, Linux
+Concepts: REST APIs, Object-Oriented Programming, Agile, MVC architecture
+
+EDUCATION
+
+BSc in Computer Science
+Trinity College Dublin
+Graduated: 2024
+Final Year Project: “AI-Based Email Classifier” – Designed a system to categorize emails using Python and Scikit-learn, achieving 93% accuracy on test data.
+
+PROJECT EXPERIENCE
+
+Inventory Management System
+- Built a full CRUD web application using Python (Flask) and SQLite
+- Implemented user authentication, form validation, and PDF invoice generation
+- Used Jinja2 templating for frontend and deployed the project on Heroku
+
+Personal Finance Tracker
+- Developed a responsive dashboard using React and Chart.js
+- Integrated a backend with Node.js and MongoDB for user data persistence
+- Allowed users to track expenses, categorize transactions, and set budgets
+
+Weather Forecast API Consumer
+- Created a Python app that consumes the OpenWeatherMap API and parses live forecast data
+- Supported CLI and web output using Streamlit
+- Emphasized code readability, modular structure, and exception handling
+
+WORK EXPERIENCE
+
+Software Intern
+SoftDev Ltd, Dublin
+June 2023 – August 2023
+- Participated in agile sprints to support backend development of a client reporting platform
+- Wrote unit tests for RESTful endpoints using PyTest and improved code coverage by 15%
+- Documented internal APIs and created onboarding materials for junior developers
+
+CERTIFICATIONS
+
+- Python for Everybody – University of Michigan (Coursera)
+- JavaScript Algorithms and Data Structures – freeCodeCamp
+- Introduction to Databases – Stanford University Online
+
+ADDITIONAL INFORMATION
+
+- Comfortable working in cross-functional teams and remote environments
+- Strong communication skills; presented final-year project to academic panel of 10+ staff
+- Interested in backend systems, automation, and API design
+
+References available on request
