@@ -1,4 +1,3 @@
-Here is the generated README.md:
 
 **CV-AI-Agent**
 ================
