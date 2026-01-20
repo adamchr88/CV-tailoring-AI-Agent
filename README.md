@@ -25,7 +25,7 @@ The CV-AI-Agent project provides a Python-based framework for [insert brief desc
 **Example usage**
 -----------------
 
-[Insert example code or a brief description of how to use the project]
+
 
 **Requirements**
 --------------
