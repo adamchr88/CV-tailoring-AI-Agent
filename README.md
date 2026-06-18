@@ -5,7 +5,7 @@
 **What it does**
 ---------------
 
-The CV-AI-Agent project provides a Python-based framework for [insert brief description of the project's purpose and functionality]. This project utilizes a combination of AI-powered tools to enhance computer vision capabilities.
+The CV-AI-Agent project provides a Python-based framework for creating a tailored CV based on a inputted job description. This project utilizes a combination of AI-powered tools to enhance computer vision capabilities.
 
 **Features**
 ------------
@@ -31,11 +31,5 @@ The CV-AI-Agent project provides a Python-based framework for [insert brief desc
 --------------
 
 * Python 3.x
-* [List any specific dependencies or libraries required by the project]
+* 
 
-**License**
----------
-
-[Insert license information if available, otherwise: This project is licensed under the MIT License. See `LICENSE` file for details.]
-
-Note: Please fill in the missing information and adjust according to your specific needs.
