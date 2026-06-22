@@ -1,14 +1,36 @@
 import streamlit as st
 from file_utils import read_file
 from templates import generate_summary, generate_bullets, generate_cover_letter
+from pypdf import PdfReader
+
+def extract_cv_text(cv_file):
+    file_name = cv_file.name.lower()
+
+    if file_name.endswith(".pdf"):
+        reader = PdfReader(cv_file)
+        cv_text = ""
+
+        for page in reader.pages:
+            page_text = page.extract_text()
+
+            if page_text is not None:
+                cv_text += page_text + "\n"
+
+        return cv_text
+
+    elif file_name.endswith(".txt"):
+        return cv_file.read().decode("utf-8", errors="ignore")
+
+    else:
+        return ""
 
 st.title("CV Tailoring AI Agent")
 
-cv_file = st.file_uploader("Upload your CV", type=["txt", "pdf"])
+cv_file = st.file_uploader("Upload your CV", type=["pdf", "txt"])
 job_text = st.text_area("Paste Job Description")
 
 if cv_file and job_text:
-    cv_text = cv_file.read().decode("utf-8")
+    cv_text = extract_cv_text(cv_file)
     st.subheader("📊 Summary")
     st.write(generate_summary(cv_text, job_text))
 
