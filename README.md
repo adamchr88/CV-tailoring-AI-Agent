@@ -86,7 +86,7 @@ cd CV-tailoring-AI-Agent
 Install the required packages:
 
 ```bash
-pip install streamlit
+pip install -r requirements.txt
 ```
 
 Run the Streamlit app:
