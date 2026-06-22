@@ -101,6 +101,20 @@ Alternatively, run the Python script:
 python run.py
 ```
 
+Windows Note
+
+If you have more than one version of Python installed and get a module error such as No module named 'pypdf', use:
+
+```bash
+py -3.12 -m pip install -r requirements.txt
+```
+
+Then run the app with:
+
+```bash
+py -3.12 -m streamlit run web_app.py
+```
+
 ---
 
 ## What I Learned
