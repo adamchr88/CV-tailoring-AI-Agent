@@ -101,7 +101,8 @@ Alternatively, run the Python script:
 python run.py
 ```
 
-Windows Note
+
+Windows Note:
 
 If you have more than one version of Python installed and get a module error such as No module named 'pypdf', use:
 
