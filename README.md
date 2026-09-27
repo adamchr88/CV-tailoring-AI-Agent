@@ -27,13 +27,13 @@ This project was built to explore how AI can support the job application process
 
 Upload a CV and paste the target job description. The application analyses both and generates tailored content.
 
-![CV Tailoring AI Agent Demo](demo%20images/demo1streamlit.png)
+![CV Tailoring AI Agent Demo](demo1streamlit.png)
 
 ### AI-Generated Results
 
 The application uses a locally running LLM through Ollama to generate content based on the CV and target role.
 
-![AI Generated Results](demo%20images/demo2streamlit.png)
+![AI Generated Results](demo2streamlit.png)
 
 ## Tech Stack
 
