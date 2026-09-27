@@ -87,6 +87,8 @@ Install the required packages:
 
 ```bash
 pip install -r requirements.txt
+
+python -m pip install ollama
 ```
 
 Run the Streamlit app:
