@@ -21,6 +21,20 @@ This project was built to explore how AI can support the job application process
 
 ---
 
+## Demo
+
+### CV and Job Description Analysis
+
+Upload a CV and paste the target job description. The application analyses both and generates tailored content.
+
+![CV Tailoring AI Agent Demo](demo%20images/demo1streamlit.png)
+
+### AI-Generated Results
+
+The application uses a locally running LLM through Ollama to generate content based on the CV and target role.
+
+![AI Generated Results](demo%20images/demo2streamlit.png)
+
 ## Tech Stack
 
 - Python
@@ -69,40 +83,52 @@ For example, if the job description mentions skills such as Python, teamwork, pr
 
 ---
 
-## Running the Project
+## Installation
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/adamchr88/CV-tailoring-AI-Agent.git
-```
-
-Move into the project folder:
-
-```bash
 cd CV-tailoring-AI-Agent
 ```
 
-Install the required packages:
+### 2. Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
-
-python -m pip install ollama
 ```
 
-Run the Streamlit app:
+### 3. Install Ollama
+
+This project uses Ollama to run the AI model locally.
+
+Download and install Ollama from:
+
+https://ollama.com/download
+
+Ollama must be installed and running for the application to generate AI responses.
+
+### 4. Download the Llama 3 model
+
+After installing Ollama, open a terminal and run:
 
 ```bash
-streamlit run web_app.py
+ollama pull llama3
 ```
 
-Alternatively, run the Python script:
+You can confirm the model is installed with:
 
 ```bash
-python run.py
+ollama list
 ```
 
+### 5. Run the application
+
+From the project directory, run:
+
+```bash
+python -m streamlit run web_app.py
+```
 
 Windows Note:
 
@@ -110,12 +136,6 @@ If you have more than one version of Python installed and get a module error suc
 
 ```bash
 py -3.12 -m pip install -r requirements.txt
-```
-
-Then run the app with:
-
-```bash
-py -3.12 -m streamlit run web_app.py
 ```
 
 ---
